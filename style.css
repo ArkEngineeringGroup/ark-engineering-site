@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #111;
+}
+header {
+    background: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+}
+.services {
+    background: #1b1b1b;
+    padding: 40px 20px;
+    text-align: center;
+}
+.services h2 {
+    margin-bottom: 20px;
+}
+.services .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.service {
+    width: 150px;
+}
+.service img {
+    width: 100%;
+    height: auto;
+}
+.about {
+    background: #222;
+    padding: 40px 20px;
+    text-align: center;
+}
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
